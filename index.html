@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhesh Morye - Personal Portfolio</title>
+    
+    <script src="https://kit.fontawesome.com/1f189152ab.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo">Siddhesh.</div>
+            
+            <div class="nav-controls">
+                <ul id="sidemenu">
+                    <li><a href="#header" data-nav-target>Home</a></li>
+                    <li><a href="#about" data-nav-target>About</a></li>
+                    <li><a href="#services" data-nav-target>Services</a></li>
+                    <li><a href="#portfolio" data-nav-target>Portfolio</a></li>
+                    <li><a href="#contact" data-nav-target>Contact</a></li>
+                    <i class="fas fa-times mobile-only" id="close-menu-icon"></i>
+                </ul>
+
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <i class="fas fa-moon"></i> 
+                </button>
+            </div>
+            
+            <i class="fas fa-bars mobile-only" id="open-menu-icon"></i>
+        </nav>
+        
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Siddhesh</span> <br> Morye from India</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row about-row">
+            <div class="about-col-1">
+                <img src="Images/pro.jpg" alt="Siddhesh Profile Photo">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p id="user-bio-text">
+                    Aspiring Frontend Developer skilled in HTML, CSS, JavaScript, and React. Seeking an internship to apply my knowledge, learn industry practices, and contribute to building responsive, user-friendly web apps in a collaborative environment.
+                </p>
+
+                <div class="tab-titles">
+                    <button class="tab-links active-link" data-tab-name="Skills">Skills</button>
+                    <button class="tab-links" data-tab-name="Experience">Experience</button>
+                    <button class="tab-links" data-tab-name="Education">Education</button>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Frontend</span><br>Designing web interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2024 - Present</span><br>Freelance Web Projects (Self-Employed)</li>
+                        <li><span>Project: E-commerce Site</span><br>Implemented responsive navigation and product listings.</li>
+                        <li><span>Project: Weather App</span><br>Used external API to display dynamic data.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Bachelor of Science (B.Sc), Information Technology</span><br>Sant Rawool Maharaj Mahavidyalaya - 2025 <br>CGPA: 7.00/10</li>
+                        <li><span>Senior Secondary (XII), Science</span><br>Kudal High School & Jr. College - 2022 <br>Percentage: 60.00%</li>
+                        <li><span>Secondary (X)</span><br>Sarambal English School - 2020 <br>Percentage: 87.80%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting modern, professional, and visually appealing user interfaces using HTML, CSS, and modern frameworks.</p>
+                <a href="#">Learn more</a> </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Focusing on user-centric design principles to create intuitive and highly usable application interfaces.</p>
+                <a href="#">Learn more</a> </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development </h2>
+                <p>Building functional and responsive frontends for web applications, specializing in React-based solutions.</p>
+                <a href="#">Learn more</a> </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://placehold.co/600x400/272733/ffffff?text=Weather+App" alt="Weather App project mockup">
+                <div class="layer">
+                    <h3>Weather Forecast Application</h3>
+                    <p>EurOrbit - 7 Day Weather Forecast</p>
+                    <a href="https://github.io/EurOrbit/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://placehold.co/600x400/272733/ffffff?text=Music+Player" alt="Music App project mockup">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A simple, dark-themed music player interface built with pure CSS and JavaScript.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://placehold.co/600x400/272733/ffffff?text=E-commerce" alt="E-commerce project mockup">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Responsive product listing and checkout flow for a mock e-commerce platform.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a> </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>morye@gmail.com</p> <p><i class="fa-solid fa-square-phone"></i>908111111</p> <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ " target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="https://example.com/your-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 Morye. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    // --- DOM REFERENCES ---
+    const sidemenu = document.getElementById("sidemenu");
+    const tabLinks = document.querySelectorAll(".tab-links");
+    const tabContents = document.querySelectorAll(".tab-contents");
+    const navLinks = document.querySelectorAll('[data-nav-target]');
+    const openMenuIcon = document.getElementById('open-menu-icon');
+    const closeMenuIcon = document.getElementById('close-menu-icon');
+
+    // --- FUNCTION DEFINITIONS ---
+    
+    function openmenu() { sidemenu.style.right = "0"; }
+    function closemenu() { sidemenu.style.right = "-200px"; }
+
+    function switchTab(event) {
+        const tabName = event.currentTarget.getAttribute('data-tab-name');
+        tabLinks.forEach(link => link.classList.remove("active-link"));
+        tabContents.forEach(content => content.classList.remove("active-tab"));
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+
+    // -------------------------------------------------------------------
+    // --- THEME TOGGLE LOGIC ---
+    // -------------------------------------------------------------------
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const moonIcon = 'fas fa-moon';
+    const sunIcon = 'fas fa-sun';
+
+    function loadTheme() {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        const icon = themeToggle.querySelector('i');
+        
+        if (savedTheme === 'dark') {
+            body.classList.add('dark-theme');
+            icon.className = sunIcon;
+        } else {
+            body.classList.remove('dark-theme');
+            icon.className = moonIcon;
+        }
+        themeToggle.style.color = 'var(--main-color)'; // Simplified
+    }
+
+    function toggleTheme() {
+        body.classList.toggle('dark-theme');
+        const isDarkTheme = body.classList.contains('dark-theme');
+        localStorage.setItem('theme', isDarkTheme ? 'dark' : 'light');
+        const icon = themeToggle.querySelector('i');
+        icon.className = isDarkTheme ? sunIcon : moonIcon;
+        themeToggle.style.color = 'var(--main-color)'; // Simplified
+    }
+    
+    // -------------------------------------------------------------------
+    // --- GOOGLE SHEET FORM LOGIC ---
+    // -------------------------------------------------------------------
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwvT5JaNLipiJqSm4_4C-XjCAn01GUN_47euBg2ALNWIQvzsF2QiSLm8dPBAiV05PVVWw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    function handleFormSubmit(e) {
+        e.preventDefault();
+        msg.innerHTML = "Sending...";
+        
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = response.ok ? "Message sent successfully!" : "Failed to send message.";
+                setTimeout(() => msg.innerHTML = "", 5000);
+                form.reset();
+            })
+            .catch(error => {
+                console.error('Network error!', error.message);
+                msg.innerHTML = "Network error. Please try again.";
+            });
+    }
+
+    // -------------------------------------------------------------------
+    // --- REMOVED: GEMINI API INTEGRATION LOGIC ---
+    // -------------------------------------------------------------------
+
+    // --- INITIALIZATION / EVENT LISTENERS ---
+    window.onload = loadTheme;
+
+    // 1. Theme Toggle
+    themeToggle.addEventListener('click', toggleTheme);
+    
+    // 2. Mobile Navigation
+    openMenuIcon.addEventListener('click', openmenu);
+    closeMenuIcon.addEventListener('click', closemenu);
+    navLinks.forEach(link => link.addEventListener('click', closemenu));
+
+    // 3. Tab Switching
+    tabLinks.forEach(link => link.addEventListener('click', switchTab));
+
+    // 4. Form Submission
+    form.addEventListener('submit', handleFormSubmit);
+
+    // 5. REMOVED: Gemini Modal Controls
+    
+    // Prevent page jump on placeholder links
+    document.querySelectorAll('a[href="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+        });
+    });
+    
+</script>
+
+</body>
+</html>
