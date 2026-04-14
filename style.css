@@ -65,12 +65,12 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url('Images/light.jpg');
+    background-image: url('Images/light_desk.jpg');
     background-size: cover;
     background-position: center;
 }
 body.dark-theme #header {
-    background-image: url('Images/dark.jpg');
+    background-image: url('Images/dark_desk.jpg');
 }
 nav {
     display: flex;
@@ -326,10 +326,10 @@ body.dark-theme form input, body.dark-theme form textarea {
 @media only screen and (max-width: 600px) {
     .container { padding: 10px 5%; } /* Tighter padding on mobile */
     #header {
-        background-image: url('https://placehold.co/600x1000/ffffff/333333?text=Mobile+Background');
+        background-image: url('Images/light_mob.jpg');
     }
     body.dark-theme #header {
-        background-image: url('https://placehold.co/600x1000/080808/ffffff?text=Mobile+Background');
+        background-image: url('Images/dark_mob.jpg');
     }
     .header-text { margin-top: 100%; font-size: 16px; }
     .header-text h1 { font-size: 30px; }
