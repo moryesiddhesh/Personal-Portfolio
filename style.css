@@ -65,12 +65,12 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url('Images/light_desk.jpg');
+    background-image: url('Images/light.jpg');
     background-size: cover;
     background-position: center;
 }
 body.dark-theme #header {
-    background-image: url('Images/dark_desk.jpg');
+    background-image: url('Images/dark.jpg');
 }
 nav {
     display: flex;
